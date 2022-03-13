@@ -1,0 +1,93 @@
+body{
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        margin: 0;   
+    }
+.container{
+        margin-top: 30px;
+        border-radius: 20px;
+        align-content: center;
+        display: flex;
+        clear: both;
+        border-radius: 25px;
+        }
+.left{
+background-image: url('/images/new2.jpg');
+background-position: center bottom;
+background-size: contain;
+background-repeat: no-repeat;
+width: 500px;
+height: 550px;
+float: left;
+border-radius: 4px;
+
+
+}
+.card{
+        height: 550px;
+        float: right;
+        margin-bottom: auto;
+        width: 720px;
+        background-color: white;
+        
+        
+        }  
+
+        .card-header h3{
+        color: #000;
+        text-align: center;
+        }
+        
+        .input-group-prepend span{
+        width: 50px;
+        background-color: #FFC312;
+        color: black;
+        border:0 !important;
+        }
+        
+        input:focus{
+        outline: 0 0 0 0  !important;
+        box-shadow: 0 0 0 0 !important;
+        
+        }   
+        .login_btn{
+        color: white;
+        background-color: #FFC312;
+        width: 300px;
+        display: block;
+        margin:0px 150px ;
+        margin-bottom: 0;  
+        }
+        
+        .login_btn:hover{
+        color: #000;
+        background-color: #ECE9EE;
+        }
+        
+        .links{
+        color: white;
+        
+        }
+        
+        .links a{
+        color: #F4D03F;
+        margin-left: 6px;
+        font-weight: bold;
+        text-decoration: none;
+        }
+        .links a:hover{
+            text-decoration: underline;
+            color: #F4D03F;
+            }
+.form-check-label{
+    color:rgb(0, 0, 0);
+}
+.chkv{
+    margin: 30px 20px ;
+}
+.error-msg{
+color:#fa1717;
+margin-top: 0;
+
+}
